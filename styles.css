@@ -32,6 +32,7 @@ body{
 
 .banner{
     margin: 3.56rem 11.875rem;
+    margin-bottom: -100px;
 }
 .menu{
     display: flex;
@@ -137,10 +138,6 @@ body{
     background: transparent;
 }
 
-.download2{
-    display: none;
-}
-
 .banner-img{
     position: relative;
     top: -2rem;
@@ -198,11 +195,70 @@ body{
 }
 
 
+/* Change your habit section */
+.change-habit{
+    max-width: 100%;
+    margin: 0 12.375rem;
+}
+
+.ch-title {
+    max-width: 100%;
+    width: 671px;
+    margin: 0 auto;  
+    text-align: center; 
+    margin-bottom: 58px;  
+}
+
+.ch-heading{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.ch-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.ch-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ch-image {
+    display: grid;
+    grid-template-columns: 1fr; 
+    justify-items: center; 
+    text-align: center; 
+}
+
+.ch-image img {
+    max-width: 100%; 
+}
+
+.ch-image> img{
+    border-radius: 50%;
+}
+
+.ch-img-heading{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ch-img-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 18px;
+}
+
 @media screen and (max-width: 576px){
 
     /* shared styles */
     .banner{
         margin: 52px 20px;
+        margin-bottom: -100px;
     }
 
     /* navbar styles */
@@ -245,14 +301,11 @@ body{
 
     .join2{
         display: contents;
+        font-size: 16.5px;
     }
-
-    .download1{
-        display: none;
-    }
-
-    .download2{
-        display: contents;
+    
+    .button-links{
+        font-size: 17px;
     }
     
     .banner-img{
@@ -269,5 +322,31 @@ body{
         position: relative;
         top: -400px;
         left: 10px;
+    }
+
+    /* change your habit section */
+
+    .change-habit{
+        margin: 20px;
+    }
+
+    .ch-title{
+        max-width: calc(100% - 20px / 2);
+    }
+
+    .ch-heading{
+        font-size: 32px;
+    }
+
+    .ch-images{
+        display: grid;
+        grid-template-columns: 1fr; 
+        justify-items: center; 
+        text-align: center; 
+        row-gap: 40px;
+    }
+
+    .ch-img-desc{
+        max-width: 231px;
     }
 }
