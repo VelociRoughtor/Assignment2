@@ -1,0 +1,273 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.miama-fonts{
+    font-family: 'Miama', sans-serif;  
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    color: white;                                      
+}
+.inter-fonts{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+/* Shared Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(17, 17, 17);
+}
+
+/* Navigation-bar styles */
+
+.banner{
+    margin: 3.56rem 11.875rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    width: 465px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+    padding: 10px 2px;
+}
+
+.menu-bar-icon{
+    display: none;
+}
+
+.brand-name{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 46px;
+}
+
+
+/* Banner Container */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.banner-text-container{
+    width: 60%;
+    height: max-content;
+}
+
+.banner-texts{
+    width: 75%;
+}
+
+.banner-heading{
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%
+}
+
+.shape{
+    font-size: 156px;  
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    margin: 28px 0;
+}
+
+.join{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    margin-right: 10px;
+}
+
+.join2{
+    display: none;
+}
+
+.button-links{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.download{
+    padding: 16px 40px 16px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: transparent;
+}
+
+.download2{
+    display: none;
+}
+
+.banner-img{
+    position: relative;
+    top: -2rem;
+}
+
+.cards{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    width: max-content;
+}
+
+.card1-heading{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.card-description{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2-orange{
+    background: rgb(230, 83, 60);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card2-heading{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card1{
+    position: relative;
+    top: -420px;
+    left: 240px;
+}
+
+.card2{
+    position: relative;
+    top: -215px;
+    left: -60px;
+}
+
+
+@media screen and (max-width: 576px){
+
+    /* shared styles */
+    .banner{
+        margin: 52px 20px;
+    }
+
+    /* navbar styles */
+    .menu-items{
+        display: none;
+    }
+    .menu-bar-icon{
+        display: block;
+    }
+
+    /* banner styles */
+    .banner-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 3.35rem;
+        margin-top: 0px;
+    }
+
+    .banner-text-container {
+        width: 100%; 
+        margin: 0; 
+    }
+
+    .banner-heading{
+        font-size: 36px;
+    }
+
+    .shape{
+        font-size: 72px;
+    }
+
+    .banner-buttons{
+        width: 100%;
+    }
+
+    .join1{
+        display: none;
+    }
+
+    .join2{
+        display: contents;
+    }
+
+    .download1{
+        display: none;
+    }
+
+    .download2{
+        display: contents;
+    }
+    
+    .banner-img{
+        top: 2rem;
+    }
+
+    .card1{
+        position: relative;
+        top: -530px;
+        left: 195px;
+    }
+    
+    .card2{
+        position: relative;
+        top: -400px;
+        left: 10px;
+    }
+}
