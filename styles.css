@@ -1,28 +1,29 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.miama-fonts{
-    font-family: 'Miama', sans-serif;  
+.miama-fonts {
+    font-family: 'Miama', sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal; 
-    color: white;                                      
+    font-style: normal;
+    color: white;
 }
-.inter-fonts{
+
+.inter-fonts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     color: white;
-  }
+}
 
 /* Shared Styles */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     min-height: 100vh;
     width: 100%;
     background: rgb(17, 17, 17);
@@ -30,16 +31,18 @@ body{
 
 /* Navigation-bar styles */
 
-.banner{
+.banner {
     margin: 3.56rem 11.875rem;
     margin-bottom: -100px;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menu-items{
+
+.menu-items {
     display: flex;
     justify-content: space-between;
     width: 465px;
@@ -49,29 +52,29 @@ body{
     padding: 10px 2px;
 }
 
-.menu-bar-icon{
+.menu-bar-icon {
     display: none;
 }
 
-.brand-name{
+.brand-name {
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
     font-style: italic;
 }
 
-.nav-item{
+.nav-item {
     list-style: none;
     font-size: 18px;
     margin-right: 20px;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: white;
 }
 
-.home{
+.home {
     padding: 8px 20px 8px 20px;
     background-color: rgb(230, 83, 60);
     border-radius: 46px;
@@ -80,38 +83,38 @@ body{
 
 /* Banner Container */
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     margin-top: 6rem;
 }
 
-.banner-text-container{
+.banner-text-container {
     width: 60%;
     height: max-content;
 }
 
-.banner-texts{
+.banner-texts {
     width: 75%;
 }
 
-.banner-heading{
+.banner-heading {
     font-size: 78px;
     font-weight: 900;
     line-height: 120%
 }
 
-.shape{
-    font-size: 156px;  
+.shape {
+    font-size: 156px;
 }
 
-.banner-description{
+.banner-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     margin: 28px 0;
 }
 
-.join{
+.join {
     padding: 16px 40px 16px 40px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -119,18 +122,18 @@ body{
     margin-right: 10px;
 }
 
-.join2{
+.join2 {
     display: none;
 }
 
-.button-links{
+.button-links {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
 }
 
-.download{
+.download {
     padding: 16px 40px 16px 40px;
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
@@ -138,12 +141,12 @@ body{
     background: transparent;
 }
 
-.banner-img{
+.banner-img {
     position: relative;
     top: -2rem;
 }
 
-.cards{
+.cards {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -153,23 +156,23 @@ body{
     width: max-content;
 }
 
-.card1-heading{
+.card1-heading {
     font-size: 40px;
     font-weight: 900;
 }
 
-.card-description{
+.card-description {
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
 }
 
-.card2{
+.card2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card2-orange{
+.card2-orange {
     background: rgb(230, 83, 60);
     width: 25px;
     height: 25px;
@@ -177,18 +180,18 @@ body{
     margin-right: 10px;
 }
 
-.card2-heading{
+.card2-heading {
     font-size: 24px;
     font-weight: 900;
 }
 
-.card1{
+.card1 {
     position: relative;
     top: -420px;
     left: 240px;
 }
 
-.card2{
+.card2 {
     position: relative;
     top: -215px;
     left: -60px;
@@ -196,7 +199,7 @@ body{
 
 
 /* Change your habit section */
-.change-habit{
+.change-habit {
     max-width: 100%;
     margin: 0 12.375rem;
     margin-bottom: 100px;
@@ -205,50 +208,50 @@ body{
 .ch-title {
     max-width: 100%;
     width: 671px;
-    margin: 0 auto;  
-    text-align: center; 
-    margin-bottom: 58px;  
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
 }
 
-.ch-heading{
+.ch-heading {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
 }
 
-.ch-description{
+.ch-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
 
-.ch-images{
+.ch-images {
     display: flex;
     justify-content: space-between;
 }
 
 .ch-image {
     display: grid;
-    grid-template-columns: 1fr; 
-    justify-items: center; 
-    text-align: center; 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
 }
 
 .ch-image img {
-    max-width: 100%; 
+    max-width: 100%;
 }
 
-.ch-image> img{
+.ch-image>img {
     border-radius: 50%;
 }
 
-.ch-img-heading{
+.ch-img-heading {
     margin-top: 30px;
     margin-bottom: 6px;
     font-size: 18px;
     font-weight: 600;
 }
 
-.ch-img-desc{
+.ch-img-desc {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 18px;
@@ -267,16 +270,16 @@ body{
 }
 
 .run-texts {
-    max-width: 40%; 
+    max-width: 40%;
 }
 
-.run-heading{
+.run-heading {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
 }
 
-.run-description{
+.run-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin-bottom: 34px;
@@ -294,24 +297,25 @@ body{
     width: 125%;
     height: 150%;
     object-fit: cover;
-    transform: scale(1.7); 
-    object-position: right; 
+    transform: scale(1.7);
+    object-position: right;
 }
 
 /* BMI Calculator styles*/
 
-.bmi{
+.bmi {
     max-width: 42rem;
     margin: 0 auto;
     margin-bottom: 5.5rem;
 }
-.bmi-heading{
+
+.bmi-heading {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
 }
 
-.bmi-description{
+.bmi-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
@@ -324,16 +328,18 @@ body{
     padding: 3.25rem 11.375rem;
 }
 
-.bmi-chart> h3, .bmi-calc> h3{
+.bmi-chart>h3,
+.bmi-calc>h3 {
     font-size: 28px;
     font-weight: 900;
 }
 
-.bmi-chart h3{
+.bmi-chart h3 {
     margin-bottom: 3.25rem;
 }
 
-.bmi-chart, .bmi-calc {
+.bmi-chart,
+.bmi-calc {
     flex: 1;
     margin: 10px;
 }
@@ -343,27 +349,28 @@ body{
     border-collapse: collapse;
 }
 
-.bmi-chart th, .bmi-chart td{
+.bmi-chart th,
+.bmi-chart td {
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 8px;
 }
 
-.bmi-chart th{
+.bmi-chart th {
     font-size: 16px;
     font-weight: 500;
     text-align: left;
 }
 
-.bmi-chart td{
+.bmi-chart td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
 
-.bmi-calc h3{
+.bmi-calc h3 {
     margin-bottom: 14px;
 }
 
-.bmi-calc p{
+.bmi-calc p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin-bottom: 34px;
@@ -376,17 +383,17 @@ body{
     gap: 10px;
 }
 
-.input-group:nth-child(5){
+.input-group:nth-child(5) {
     grid-column: span 2;
 }
 
-.input-group{
+.input-group {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 20px 12px 20px;
 }
 
-.input-group input{
+.input-group input {
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
@@ -394,14 +401,15 @@ body{
     background: none;
 }
 
-.input-group input, .input-group .dropdown {
+.input-group input,
+.input-group .dropdown {
     flex: 1;
 }
 
 #age {
     display: flex;
-    align-items: center; 
-    height: 100%; 
+    align-items: center;
+    height: 100%;
 }
 
 .dropdown {
@@ -421,7 +429,7 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -432,7 +440,9 @@ body{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -456,101 +466,105 @@ body{
     right: -10%;
 }
 
-.bmi-button{
+.bmi-button {
     margin-top: 34px;
 }
 
 /* Unique section */
 
-.unique{
+.unique {
     margin: 100px 0px;
     padding: 0 11.875rem;
 }
-    
+
 .unique-texts {
     max-width: 70%;
     display: grid;
-    justify-items: center; 
+    justify-items: center;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
-    
-.unique-texts h3{
+
+.unique-texts h3 {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
 }
-    
-.unique-texts p{
+
+.unique-texts p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     text-align: center;
 }
-    
+
 .unique-section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 48px;
 }
-    
-.unique-section h3{
+
+.unique-section h3 {
     margin-top: 24px;
     margin-bottom: 6px;
     font-size: 18px;
     font-weight: 600;
 }
-    
-.unique-section p{
+
+.unique-section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
-.pro-tip, .healthy-recipe {
+
+.pro-tip,
+.healthy-recipe {
     flex: 1 1 45%;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.75);
 }
-    
-.pro-tip img, .healthy-recipe img {
+
+.pro-tip img,
+.healthy-recipe img {
     width: 100%;
     height: auto;
     display: block;
 }
-    
-.tip-content, .recipe-content {
+
+.tip-content,
+.recipe-content {
     padding: 15px;
 }
 
 /* Meet our team section */
 
-.team{
+.team {
     margin: 100px 0px;
     padding: 0 11.875rem;
     margin-bottom: 5.5rem;
-    }
-    
-    .team-title{
+}
+
+.team-title {
     max-width: 70%;
     display: grid;
-    justify-items: center; 
+    justify-items: center;
     margin: 0 auto;
     margin-bottom: 3rem;
-    }
-    
-    .team-title h3{
+}
+
+.team-title h3 {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 14px;
-    }
-    
-    .team-title p{
+}
+
+.team-title p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     text-align: center;
-    }
-    
-    .team-images {
+}
+
+.team-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background: rgba(255, 255, 255, 0.1);
@@ -558,119 +572,194 @@ body{
     padding: 20px;
     border-radius: 18px;
     padding-left: 30px;
-    }
-    
-    .team-images img {
+}
+
+.team-images img {
     width: 100%;
     height: auto;
-    object-fit: cover; 
+    object-fit: cover;
     object-position: top;
-    }
-    
-    .trainers{
+}
+
+.trainers {
     overflow: hidden;
     border-radius: 18px;
     max-width: 326px;
     max-height: 272px;
-    }
-    
-    .trainer4 img{
+}
+
+.trainer4 img {
     min-height: 272px;
-    }
-    
-    .trainers{
+}
+
+.trainers {
     position: relative;
     display: inline-block;
-    }
-    
-    .background-image {
-    display: block; 
-    width: 100%; 
-    height: auto; 
-    }
-    .text-overlay {
+}
+
+.background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
     position: absolute;
     top: 80%;
     left: 30%;
-    transform: translate(-50%, -50%); 
-    padding: 10px; 
-    }
-    
-    .text-overlay h3{
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text-overlay h3 {
     font-size: 20px;
-    }
-    
-    .text-overlay p{
+}
+
+.text-overlay p {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.65);
-    }
+}
 
-@media screen and (max-width: 576px){
+/* footer section */
+
+.footer-bg {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    padding: 4rem 11.375rem;
+}
+
+.footer-texts {
+    width: 50%;
+    padding-right: 6.6rem;
+}
+
+.footer-texts h3 {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer-texts p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-links {
+    width: 50%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-link li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+}
+
+.footer-bottom {
+    margin: 0 11.375rem;
+}
+
+.footer-bottom hr {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+    padding: 35px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
 
     /* shared styles */
-    .banner{
+    .banner {
         margin: 52px 20px;
         margin-bottom: -100px;
     }
 
     /* navbar styles */
-    .menu-items{
+    .menu-items {
         display: none;
     }
-    .menu-bar-icon{
+
+    .menu-bar-icon {
         display: block;
     }
 
     /* banner styles */
-    .banner-container{
+    .banner-container {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding-top: 3.35rem;
         margin-top: 0px;
     }
 
     .banner-text-container {
-        width: 100%; 
-        margin: 0; 
+        width: 100%;
+        margin: 0;
     }
 
-    .banner-heading{
+    .banner-heading {
         font-size: 36px;
     }
 
-    .shape{
+    .shape {
         font-size: 72px;
     }
 
-    .banner-buttons{
+    .banner-buttons {
         width: 100%;
     }
 
-    .join1{
+    .join1 {
         display: none;
     }
 
-    .join2{
+    .join2 {
         display: contents;
         font-size: 16.5px;
     }
-    
-    .button-links{
+
+    .button-links {
         font-size: 17px;
     }
-    
-    .banner-img{
+
+    .banner-img {
         top: 2rem;
     }
 
-    .card1{
+    .card1 {
         position: relative;
         top: -530px;
         left: 195px;
     }
-    
-    .card2{
+
+    .card2 {
         position: relative;
         top: -400px;
         left: 10px;
@@ -678,60 +767,61 @@ body{
 
     /* change your habit section */
 
-    .change-habit{
+    .change-habit {
         margin: 20px;
         margin-bottom: 66px;
     }
 
-    .ch-title{
+    .ch-title {
         max-width: calc(100% - 20px / 2);
     }
 
-    .ch-heading{
+    .ch-heading {
         font-size: 32px;
     }
 
-    .ch-images{
+    .ch-images {
         display: grid;
-        grid-template-columns: 1fr; 
-        justify-items: center; 
-        text-align: center; 
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
         row-gap: 40px;
     }
 
-    .ch-img-desc{
+    .ch-img-desc {
         max-width: 231px;
     }
 
     /* run an extra mile styles */
 
-    .run{
+    .run {
         margin: 20px;
         padding: 31px 33px;
         display: grid;
-        grid-template-columns: 1fr; 
-        row-gap: 31px; 
+        grid-template-columns: 1fr;
+        row-gap: 31px;
     }
 
-    .run-texts{
+    .run-texts {
         max-width: 100%;
     }
 
-    .run-heading{
+    .run-heading {
         font-size: 36px;
         font-weight: 900;
     }
-    .run-image{
+
+    .run-image {
         width: 100%;
         height: 100%;
-        transform: scale(1.0); 
+        transform: scale(1.0);
     }
-    
-    .run-button{
+
+    .run-button {
         text-align: center;
     }
 
-    .run-join{
+    .run-join {
         width: 100%;
     }
 
@@ -740,20 +830,20 @@ body{
     .bmi-calc-input {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        justify-content: center; 
+        justify-content: center;
         gap: 10px;
     }
 
     .input-group {
         padding: 10px;
         box-sizing: border-box;
-        width: 176px; 
+        width: 176px;
     }
 
     .input-group:nth-child(5) {
         width: 100%;
-        grid-column: span 2; 
-        justify-self: center; 
+        grid-column: span 2;
+        justify-self: center;
     }
 
     .bmi {
@@ -778,12 +868,14 @@ body{
         gap: 1.5rem;
     }
 
-    .bmi-chart, .bmi-calc {
+    .bmi-chart,
+    .bmi-calc {
         margin: 0;
         padding: 1rem;
     }
 
-    .bmi-chart h3, .bmi-calc h3 {
+    .bmi-chart h3,
+    .bmi-calc h3 {
         font-size: 24px;
     }
 
@@ -791,7 +883,8 @@ body{
         width: 100%;
     }
 
-    .bmi-chart th, .bmi-chart td {
+    .bmi-chart th,
+    .bmi-chart td {
         font-size: 14px;
         padding: 6px;
     }
@@ -804,10 +897,11 @@ body{
     .dropbtn {
         padding: 10px;
         font-size: 14px;
-        width: 100%; 
+        width: 100%;
     }
 
-    .dropbtn1 i, .dropbtn2 i {
+    .dropbtn1 i,
+    .dropbtn2 i {
         right: -7.5%;
     }
 
@@ -822,8 +916,8 @@ body{
     /* Unique Section */
 
     .unique {
-        padding: 0 1rem; 
-        margin: 50px 0; 
+        padding: 0 1rem;
+        margin: 50px 0;
     }
 
     .unique-texts {
@@ -840,12 +934,13 @@ body{
     }
 
     .unique-section {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 24px;
     }
 
-    .pro-tip, .healthy-recipe {
-        flex: 1 1 100%; 
+    .pro-tip,
+    .healthy-recipe {
+        flex: 1 1 100%;
     }
 
     .unique-section h3 {
@@ -879,12 +974,13 @@ body{
     }
 
     .team-images {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         gap: 16px;
-        padding: 10px; 
+        padding: 10px;
     }
 
-    .trainer1, .trainer4 {
+    .trainer1,
+    .trainer4 {
         display: none;
     }
 
@@ -929,6 +1025,73 @@ body{
         font-size: 12px;
     }
 
+    /* footer section */
+
+    .footer-bg {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-container {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        margin-bottom: 72px;
+    }
+
+    .footer-texts,
+    .footer-links {
+        width: 100%;
+        border: none;
+    }
+
+    .footer-texts {
+        margin-bottom: 2rem;
+    }
+
+    .footer-texts h3 {
+        font-size: 70px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .footer-texts p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .footer-links {
+        display: block;
+        padding: 0;
+    }
+
+    .footer-link {
+        margin-bottom: 2rem;
+    }
+
+    .footer-link h3 {
+        font-size: 32px;
+        margin-bottom: 39px;
+    }
+
+    .footer-link li {
+        margin-bottom: 20px;
+    }
+
+    .footer-link a {
+        font-size: 23px;
+    }
+
+    .footer-bottom {
+        margin: 0;
+    }
+
+    .footer-bottom hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 0 20px;
+    }
+
+    .footer-bottom p {
+        margin-top: 41px;
+        padding: 20px;
+        font-size: 20px;
+    }
 }
-
-
