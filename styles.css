@@ -1,3 +1,5 @@
+/* Shared styles */
+
 @import url('https://fonts.cdnfonts.com/css/miama');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -17,7 +19,6 @@
     color: white;
 }
 
-/* Shared Styles */
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +29,7 @@ body {
     width: 100%;
     background: rgb(17, 17, 17);
 }
+
 
 /* Navigation-bar styles */
 
@@ -81,7 +83,7 @@ body {
 }
 
 
-/* Banner Container */
+/* Banner Styles */
 
 .banner-container {
     display: flex;
@@ -197,8 +199,8 @@ body {
     left: -60px;
 }
 
-
 /* Change your habit section */
+
 .change-habit {
     max-width: 100%;
     margin: 0 12.375rem;
@@ -258,6 +260,7 @@ body {
 }
 
 /* run an extra mile styles */
+
 .run {
     max-width: 100%;
     margin: 0 12.375rem;
@@ -849,17 +852,18 @@ body {
     .bmi {
         max-width: 100%;
         margin-bottom: 3rem;
-        padding: 0 1rem;
-        margin-top: 2rem;
+        padding: 0 1.5rem;
+        margin-top: 1.75rem;
     }
 
     .bmi-heading {
         font-size: 32px;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
     }
 
     .bmi-description {
         font-size: 14px;
+        margin-bottom: 32px;
     }
 
     .bmi-contents {
@@ -871,12 +875,16 @@ body {
     .bmi-chart,
     .bmi-calc {
         margin: 0;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .bmi-chart h3,
     .bmi-calc h3 {
-        font-size: 24px;
+        font-size: 16px;
+    }
+
+    .bmi-chart h3 {
+        margin-bottom: 23px;
     }
 
     .bmi-chart table {
@@ -916,7 +924,7 @@ body {
     /* Unique Section */
 
     .unique {
-        padding: 0 1rem;
+        padding: 0 1.5rem;
         margin: 50px 0;
     }
 
@@ -931,6 +939,7 @@ body {
 
     .unique-texts p {
         font-size: 14px;
+        text-align: left;
     }
 
     .unique-section {
@@ -950,13 +959,13 @@ body {
     }
 
     .unique-section p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /* Meet Our Team Section */
 
     .team {
-        padding: 1rem;
+        padding: 1rem 1.5rem;
         margin: 50px 0;
     }
 
@@ -1033,7 +1042,7 @@ body {
 
     .footer-container {
         flex-direction: column;
-        padding: 2rem 1rem;
+        padding: 2rem 1.5rem;
         margin-bottom: 72px;
     }
 
